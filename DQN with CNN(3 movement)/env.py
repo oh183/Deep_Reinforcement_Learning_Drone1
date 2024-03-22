@@ -109,10 +109,11 @@ class DroneEnv(object):
     def compute_reward(self, drone_position, collision):
 
         reward = -1
+        done = 0
 
         if collision:
-            reward = -100
-
+            reward = -50
+            done = 1
         else:
             dist = self.get_distance_to_goal(drone_position)
 
@@ -120,18 +121,17 @@ class DroneEnv(object):
             self.last_dist = dist
 
             if dist < 10 and checkpoint == 0:
-                reward += 500
+                reward += 10
                 checkpoint = 1
                 print("\nCK1\n")
             elif dist < 10 and checkpoint == 1:
-                reward += 50000
+                reward = 500
                 print("\nCK2\n")
 
             else:
                 reward +=  progress
 
-        done = 0
-
+        
         print("reward: {:.1f}".format(reward), "Loc:",end='')
         # if reward <= -1:
         #     reward = -50
@@ -140,10 +140,8 @@ class DroneEnv(object):
         #     time.sleep(1)
         
         
-        if reward >= 40000 and checkpoint == 1:
-
+        if reward >= 400:
             done = 1
-
             time.sleep(1)
 
 
