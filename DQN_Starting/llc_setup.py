@@ -11,9 +11,11 @@ class DeepQNetwork(nn.Module):
         self.fc1_dims = fc1_dims
         self.fc2_dims = fc2_dims
         self.n_actions = n_actions
+
         self.fc1 = nn.Linear(*self.input_dims, self.fc1_dims)
-        self.fc2 = nn.Linear(self.fc1_dinms, self.fc2_dims)
-        self.fc2v = nn.Linear(self.fc2_dims,n_actions)
+        self.fc2 = nn.Linear(self.fc1_dims, self.fc2_dims)
+        self.fc2v = nn.Linear(self.fc2_dims,self.n_actions)
+
         self.optimizer = optim.Adam(self.parameters(), lr=lr)
         self.loss = nn.MSELoss()
         self.device = T.device('cuda:0' if T.cuda.is_available() else "cpu")
@@ -23,7 +25,7 @@ class DeepQNetwork(nn.Module):
     def forward(self,state):
         x = F.relu(self.fc1(state))
         x = F.relu(self.fc2(x))
-        actions = self.fc3(x)
+        actions = self.fc2v(x)
 
         return actions
     
@@ -31,7 +33,7 @@ class Agent():
     # gamma is the determines the weighting of future rewards
     # epsilon: how often does it spend exploring vs taking the best decision
     #batch_size: from which past values to go off from
-    def __init__(self,gamma, epsilon, lr, input_dims, batch_size, n_actions, max_mem_size = 100000, epsilon_end = 0.01, epsilon_dec = 5e-4):
+    def __init__(self , gamma, epsilon, lr, input_dims, batch_size, n_actions, max_mem_size = 100000, epsilon_end = 0.01, epsilon_dec = 5e-4):
         self.gamma = gamma
         self.epsilon = epsilon
         self.eps_min = epsilon_end
@@ -40,7 +42,7 @@ class Agent():
         self.action_space = [i for i in range(n_actions)]
         self.mem_size = max_mem_size
         self.batch_size = batch_size
-        self.mem_ctnr = 0
+        self.mem_cntr = 0
 
         self.Q_eval = DeepQNetwork(self.lr, n_actions = n_actions, input_dims = input_dims,
                                    fc1_dims = 256, fc2_dims = 256)
@@ -56,17 +58,35 @@ class Agent():
         self.reward_memory = np.zeros(self.mem_size, dtype = np.float32)
         
         # stores whether or not (something?) has ended?
-        self.terminal_memory = np.zeros(self.mem_size, dtype = np.bool)        
+        self.terminal_memory = np.zeros(self.mem_size, dtype = np.bool)       
     
     def store_transition(self, state, action, reward, state_, done):
         index = self.mem_cntr % self.mem_size
+
+        # Debugging prints
+
+        state = np.array(state)
+        state_ = np.array(state_)
+
+        print("State type:", type(state))
+        print("State shape:", len(state))
+        print("Expected shape:", self.state_memory.shape[1:])
+
+        # Ensure shape consistency
+        if state.shape != self.state_memory.shape[1:]:
+            state = state.reshape(self.state_memory.shape[1:])
+        
+        if state.shape!= self.new_state_memory.shape[1:]:
+            state_ = state_.reshape(self.new_state_memory.shape[1:])
+
         self.state_memory[index] = state
-        self.new_state_meory[index] = state_
+        self.new_state_memory[index] = state_
         self.reward_memory[index] = reward
         self.action_memory[index] = action
         self.terminal_memory[index] = done
 
-        self.mem_cntr += 1 
+        self.mem_cntr += 1
+
 
     def choose_action(self, observation):
         if np.random.random() > self.epsilon:

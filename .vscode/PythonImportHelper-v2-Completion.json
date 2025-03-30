@@ -1,0 +1,677 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "airsim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "airsim",
+        "description": "airsim",
+        "detail": "airsim",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "DroneEnv",
+        "importPath": "env",
+        "description": "env",
+        "isExtraImport": true,
+        "detail": "env",
+        "documentation": {}
+    },
+    {
+        "label": "DroneEnv",
+        "importPath": "env",
+        "description": "env",
+        "isExtraImport": true,
+        "detail": "env",
+        "documentation": {}
+    },
+    {
+        "label": "DroneEnv",
+        "importPath": "env",
+        "description": "env",
+        "isExtraImport": true,
+        "detail": "env",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryWriter",
+        "importPath": "torch.utils.tensorboard",
+        "description": "torch.utils.tensorboard",
+        "isExtraImport": true,
+        "detail": "torch.utils.tensorboard",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryWriter",
+        "importPath": "torch.utils.tensorboard",
+        "description": "torch.utils.tensorboard",
+        "isExtraImport": true,
+        "detail": "torch.utils.tensorboard",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryWriter",
+        "importPath": "torch.utils.tensorboard",
+        "description": "torch.utils.tensorboard",
+        "isExtraImport": true,
+        "detail": "torch.utils.tensorboard",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Memory",
+        "importPath": "prioritized_memory",
+        "description": "prioritized_memory",
+        "isExtraImport": true,
+        "detail": "prioritized_memory",
+        "documentation": {}
+    },
+    {
+        "label": "Memory",
+        "importPath": "prioritized_memory",
+        "description": "prioritized_memory",
+        "isExtraImport": true,
+        "detail": "prioritized_memory",
+        "documentation": {}
+    },
+    {
+        "label": "Memory",
+        "importPath": "prioritized_memory",
+        "description": "prioritized_memory",
+        "isExtraImport": true,
+        "detail": "prioritized_memory",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pprint",
+        "description": "pprint",
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "SumTree",
+        "importPath": "SumTree",
+        "description": "SumTree",
+        "isExtraImport": true,
+        "detail": "SumTree",
+        "documentation": {}
+    },
+    {
+        "label": "SumTree",
+        "importPath": "SumTree",
+        "description": "SumTree",
+        "isExtraImport": true,
+        "detail": "SumTree",
+        "documentation": {}
+    },
+    {
+        "label": "DDQN_Agent",
+        "importPath": "ddqn_agent",
+        "description": "ddqn_agent",
+        "isExtraImport": true,
+        "detail": "ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "DDQN_Agent",
+        "importPath": "ddqn_agent",
+        "description": "ddqn_agent",
+        "isExtraImport": true,
+        "detail": "ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "gymnasium",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gymnasium",
+        "description": "gymnasium",
+        "detail": "gymnasium",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "llc_setup",
+        "description": "llc_setup",
+        "isExtraImport": true,
+        "detail": "llc_setup",
+        "documentation": {}
+    },
+    {
+        "label": "plot_learning_curves",
+        "importPath": "mlxtend.plotting",
+        "description": "mlxtend.plotting",
+        "isExtraImport": true,
+        "detail": "mlxtend.plotting",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inputs",
+        "description": "inputs",
+        "detail": "inputs",
+        "documentation": {}
+    },
+    {
+        "label": "DQN",
+        "kind": 6,
+        "importPath": "DQN with CNN(3 movement).ddqn_agent",
+        "description": "DQN with CNN(3 movement).ddqn_agent",
+        "peekOfCode": "class DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)\n        self.conv3 = nn.Conv2d(42, 21, kernel_size=2, stride=2)\n        self.fc4 = nn.Linear(21 * 4 * 4, 168)\n        self.fc5 = nn.Linear(168, num_actions)\n    def forward(self, x):\n        x = F.relu(self.conv1(x))",
+        "detail": "DQN with CNN(3 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "DDQN_Agent",
+        "kind": 6,
+        "importPath": "DQN with CNN(3 movement).ddqn_agent",
+        "description": "DQN with CNN(3 movement).ddqn_agent",
+        "peekOfCode": "class DDQN_Agent:\n    def __init__(self, useDepth=False):\n        self.useDepth = useDepth\n        self.eps_start = 0.9 \n        self.eps_end = 0.05\n        self.eps_decay = 30000\n        self.gamma = 0.8  # discount rate for future reward\n        self.learning_rate = 0.001\n        self.batch_size = 512 \n        self.memory = Memory(10000) ",
+        "detail": "DQN with CNN(3 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "writer",
+        "kind": 5,
+        "importPath": "DQN with CNN(3 movement).ddqn_agent",
+        "description": "DQN with CNN(3 movement).ddqn_agent",
+        "peekOfCode": "writer = SummaryWriter()\ntorch.manual_seed(0)\nrandom.seed(0)\nnp.random.seed(0)\ndevice = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')\nclass DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)",
+        "detail": "DQN with CNN(3 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "DQN with CNN(3 movement).ddqn_agent",
+        "description": "DQN with CNN(3 movement).ddqn_agent",
+        "peekOfCode": "device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')\nclass DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)\n        self.conv3 = nn.Conv2d(42, 21, kernel_size=2, stride=2)\n        self.fc4 = nn.Linear(21 * 4 * 4, 168)\n        self.fc5 = nn.Linear(168, num_actions)\n    def forward(self, x):",
+        "detail": "DQN with CNN(3 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "DroneEnv",
+        "kind": 6,
+        "importPath": "DQN with CNN(3 movement).env",
+        "description": "DQN with CNN(3 movement).env",
+        "peekOfCode": "class DroneEnv(object):\n    def __init__(self, useDepth=False): # in python, underscore before function name is the convention of private(not actually private) \n        self.client = airsim.MultirotorClient() \n        self.last_dist = self.get_distance_to_goal(self.client.getMultirotorState().kinematics_estimated.position)\n        self.angle = 0.0\n        self.useDepth = useDepth\n    def step(self, drone_action):\n        # adjust velocity\n        self.angle = self.interpret_action(drone_action)",
+        "detail": "DQN with CNN(3 movement).env",
+        "documentation": {}
+    },
+    {
+        "label": "MOVEMENT_INTERVAL",
+        "kind": 5,
+        "importPath": "DQN with CNN(3 movement).env",
+        "description": "DQN with CNN(3 movement).env",
+        "peekOfCode": "MOVEMENT_INTERVAL = 1\ncheckpoint = 0\nclass DroneEnv(object):\n    def __init__(self, useDepth=False): # in python, underscore before function name is the convention of private(not actually private) \n        self.client = airsim.MultirotorClient() \n        self.last_dist = self.get_distance_to_goal(self.client.getMultirotorState().kinematics_estimated.position)\n        self.angle = 0.0\n        self.useDepth = useDepth\n    def step(self, drone_action):",
+        "detail": "DQN with CNN(3 movement).env",
+        "documentation": {}
+    },
+    {
+        "label": "checkpoint",
+        "kind": 5,
+        "importPath": "DQN with CNN(3 movement).env",
+        "description": "DQN with CNN(3 movement).env",
+        "peekOfCode": "checkpoint = 0\nclass DroneEnv(object):\n    def __init__(self, useDepth=False): # in python, underscore before function name is the convention of private(not actually private) \n        self.client = airsim.MultirotorClient() \n        self.last_dist = self.get_distance_to_goal(self.client.getMultirotorState().kinematics_estimated.position)\n        self.angle = 0.0\n        self.useDepth = useDepth\n    def step(self, drone_action):",
+        "detail": "DQN with CNN(3 movement).env",
+        "documentation": {}
+    },
+    {
+        "label": "Memory",
+        "kind": 6,
+        "importPath": "DQN with CNN(3 movement).prioritized_memory",
+        "description": "DQN with CNN(3 movement).prioritized_memory",
+        "peekOfCode": "class Memory:  # stored as ( s, a, r, s_ ) in SumTree\n    e = 0.01\n    a = 0.6\n    beta = 0.4\n    beta_increment_per_sampling = 0.001\n    def __init__(self, capacity):\n        self.tree = SumTree(capacity)\n        self.capacity = capacity\n    def _get_priority(self, error):\n        return (np.abs(error) + self.e) ** self.a",
+        "detail": "DQN with CNN(3 movement).prioritized_memory",
+        "documentation": {}
+    },
+    {
+        "label": "SumTree",
+        "kind": 6,
+        "importPath": "DQN with CNN(3 movement).SumTree",
+        "description": "DQN with CNN(3 movement).SumTree",
+        "peekOfCode": "class SumTree:\n    write = 0\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.tree = numpy.zeros(2 * capacity - 1)\n        self.states = numpy.zeros(capacity, dtype=object)\n        self.actions = numpy.zeros(capacity, dtype=object)\n        self.rewards = numpy.zeros(capacity, dtype=object)\n        self.next_states = numpy.zeros(capacity, dtype=object)\n        self.n_entries = 0",
+        "detail": "DQN with CNN(3 movement).SumTree",
+        "documentation": {}
+    },
+    {
+        "label": "DQN",
+        "kind": 6,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "description": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "peekOfCode": "class DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)\n        self.conv3 = nn.Conv2d(42, 21, kernel_size=2, stride=2)\n        self.fc4 = nn.Linear(21 * 4 * 4, 168)\n        self.fc5 = nn.Linear(168, num_actions)\n    def forward(self, x):\n        x = F.relu(self.conv1(x))",
+        "detail": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "documentation": {}
+    },
+    {
+        "label": "DDQN_Agent",
+        "kind": 6,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "description": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "peekOfCode": "class DDQN_Agent:\n    def __init__(self, useDepth=False):\n        self.useDepth = useDepth\n        self.eps_start = 0.9 # control randomness\n        self.eps_end = 0.05\n        self.eps_decay = 30000\n        self.gamma = 0.8  # discount rate try 0\n        self.learning_rate = 0.001\n        self.batch_size = 512 #try 1000\n        self.memory = Memory(10000) #try 100000",
+        "detail": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "documentation": {}
+    },
+    {
+        "label": "writer",
+        "kind": 5,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "description": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "peekOfCode": "writer = SummaryWriter()\ntorch.manual_seed(0)\nrandom.seed(0)\nnp.random.seed(0)\ndevice = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')\nclass DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)",
+        "detail": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "description": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "peekOfCode": "device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')\nclass DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)\n        self.conv3 = nn.Conv2d(42, 21, kernel_size=2, stride=2)\n        self.fc4 = nn.Linear(21 * 4 * 4, 168)\n        self.fc5 = nn.Linear(168, num_actions)\n    def forward(self, x):",
+        "detail": "DQN with CNN(8 movement).ddqn_agent - 複製",
+        "documentation": {}
+    },
+    {
+        "label": "DQN",
+        "kind": 6,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent",
+        "description": "DQN with CNN(8 movement).ddqn_agent",
+        "peekOfCode": "class DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)\n        self.conv3 = nn.Conv2d(42, 21, kernel_size=2, stride=2)\n        self.fc4 = nn.Linear(21 * 4 * 4, 168)\n        self.fc5 = nn.Linear(168, num_actions)\n    def forward(self, x):\n        x = F.relu(self.conv1(x))",
+        "detail": "DQN with CNN(8 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "DDQN_Agent",
+        "kind": 6,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent",
+        "description": "DQN with CNN(8 movement).ddqn_agent",
+        "peekOfCode": "class DDQN_Agent:\n    def __init__(self, useDepth=False):\n        self.useDepth = useDepth\n        self.eps_start = 0.9 # control randomness\n        self.eps_end = 0.05\n        self.eps_decay = 30000\n        self.gamma = 0.8  # discount rate try 0\n        self.learning_rate = 0.001\n        self.batch_size = 512 #try 1000\n        self.memory = Memory(10000) #try 100000",
+        "detail": "DQN with CNN(8 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "writer",
+        "kind": 5,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent",
+        "description": "DQN with CNN(8 movement).ddqn_agent",
+        "peekOfCode": "writer = SummaryWriter()\ntorch.manual_seed(0)\nrandom.seed(0)\nnp.random.seed(0)\ndevice = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')\nclass DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)",
+        "detail": "DQN with CNN(8 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "DQN with CNN(8 movement).ddqn_agent",
+        "description": "DQN with CNN(8 movement).ddqn_agent",
+        "peekOfCode": "device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')\nclass DQN(nn.Module):\n    def __init__(self, in_channels=1, num_actions=8):\n        super(DQN, self).__init__()\n        self.conv1 = nn.Conv2d(in_channels, 84, kernel_size=4, stride=4)\n        self.conv2 = nn.Conv2d(84, 42, kernel_size=4, stride=2)\n        self.conv3 = nn.Conv2d(42, 21, kernel_size=2, stride=2)\n        self.fc4 = nn.Linear(21 * 4 * 4, 168)\n        self.fc5 = nn.Linear(168, num_actions)\n    def forward(self, x):",
+        "detail": "DQN with CNN(8 movement).ddqn_agent",
+        "documentation": {}
+    },
+    {
+        "label": "DroneEnv",
+        "kind": 6,
+        "importPath": "DQN with CNN(8 movement).env",
+        "description": "DQN with CNN(8 movement).env",
+        "peekOfCode": "class DroneEnv(object):\n    def __init__(self, useDepth=False): # in python, underscore before function name is the convention of private(not actually private) \n        self.client = airsim.MultirotorClient() \n        self.last_dist = self.get_distance_to_goal(self.client.getMultirotorState().kinematics_estimated.position)\n        # rotation added!!!!!!!!!!\n        self.speed_offset = (0, 0, 0, 0, 0) \n        self.useDepth = useDepth\n    def step(self, drone_action):\n        # adjust velocity\n        self.speed_offset = self.interpret_action(drone_action)",
+        "detail": "DQN with CNN(8 movement).env",
+        "documentation": {}
+    },
+    {
+        "label": "MOVEMENT_INTERVAL",
+        "kind": 5,
+        "importPath": "DQN with CNN(8 movement).env",
+        "description": "DQN with CNN(8 movement).env",
+        "peekOfCode": "MOVEMENT_INTERVAL = 1\nclass DroneEnv(object):\n    def __init__(self, useDepth=False): # in python, underscore before function name is the convention of private(not actually private) \n        self.client = airsim.MultirotorClient() \n        self.last_dist = self.get_distance_to_goal(self.client.getMultirotorState().kinematics_estimated.position)\n        # rotation added!!!!!!!!!!\n        self.speed_offset = (0, 0, 0, 0, 0) \n        self.useDepth = useDepth\n    def step(self, drone_action):\n        # adjust velocity",
+        "detail": "DQN with CNN(8 movement).env",
+        "documentation": {}
+    },
+    {
+        "label": "Memory",
+        "kind": 6,
+        "importPath": "DQN with CNN(8 movement).prioritized_memory",
+        "description": "DQN with CNN(8 movement).prioritized_memory",
+        "peekOfCode": "class Memory:  # stored as ( s, a, r, s_ ) in SumTree\n    e = 0.01\n    a = 0.6\n    beta = 0.4\n    beta_increment_per_sampling = 0.001\n    def __init__(self, capacity):\n        self.tree = SumTree(capacity)\n        self.capacity = capacity\n    def _get_priority(self, error):\n        return (np.abs(error) + self.e) ** self.a",
+        "detail": "DQN with CNN(8 movement).prioritized_memory",
+        "documentation": {}
+    },
+    {
+        "label": "SumTree",
+        "kind": 6,
+        "importPath": "DQN with CNN(8 movement).SumTree",
+        "description": "DQN with CNN(8 movement).SumTree",
+        "peekOfCode": "class SumTree:\n    write = 0\n    def __init__(self, capacity):\n        self.capacity = capacity\n        self.tree = numpy.zeros(2 * capacity - 1)\n        self.states = numpy.zeros(capacity, dtype=object)\n        self.actions = numpy.zeros(capacity, dtype=object)\n        self.rewards = numpy.zeros(capacity, dtype=object)\n        self.next_states = numpy.zeros(capacity, dtype=object)\n        self.n_entries = 0",
+        "detail": "DQN with CNN(8 movement).SumTree",
+        "documentation": {}
+    },
+    {
+        "label": "n_games",
+        "kind": 5,
+        "importPath": "DQN_Starting.llc",
+        "description": "DQN_Starting.llc",
+        "peekOfCode": "n_games = 500\nfor i in range(n_games):\n    score = 0\n    done = False\n    observation = env.reset()\n    while not done:\n        action = agent.choose_action(observation)\n        observation_, reward, terminated, truncated, info = env.step(action) # Newer version of gym and env needed\n        done = truncated or terminated\n        score += reward",
+        "detail": "DQN_Starting.llc",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "DQN_Starting.llc",
+        "description": "DQN_Starting.llc",
+        "peekOfCode": "x = [i + 1 for i in range(n_games)]\nfilename = 'lunar_lander_2020.png'\nplot_learning_curves(x, scores, eps_history, filename)",
+        "detail": "DQN_Starting.llc",
+        "documentation": {}
+    },
+    {
+        "label": "filename",
+        "kind": 5,
+        "importPath": "DQN_Starting.llc",
+        "description": "DQN_Starting.llc",
+        "peekOfCode": "filename = 'lunar_lander_2020.png'\nplot_learning_curves(x, scores, eps_history, filename)",
+        "detail": "DQN_Starting.llc",
+        "documentation": {}
+    },
+    {
+        "label": "DeepQNetwork",
+        "kind": 6,
+        "importPath": "DQN_Starting.llc_full",
+        "description": "DQN_Starting.llc_full",
+        "peekOfCode": "class DeepQNetwork(nn.Module):\n    def __init__(self, lr, input_dims, fc1_dims, fc2_dims, n_actions):\n        super(DeepQNetwork, self).__init__()\n        self.input_dims = input_dims\n        self.fc1_dims = fc1_dims\n        self.fc2_dims = fc2_dims\n        self.n_actions = n_actions\n        self.fc1 = nn.Linear(*self.input_dims, self.fc1_dims)\n        self.fc2 = nn.Linear(self.fc1_dims, self.fc2_dims)\n        self.fc3 = nn.Linear(self.fc2_dims, self.n_actions)",
+        "detail": "DQN_Starting.llc_full",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "kind": 6,
+        "importPath": "DQN_Starting.llc_full",
+        "description": "DQN_Starting.llc_full",
+        "peekOfCode": "class Agent():\n    def __init__(self, gamma, epsilon, lr, input_dims, batch_size, n_actions, max_mem_size=100000, epsilon_end=0.01, epsilon_dec=5e-5):\n        self.gamma = gamma\n        self.epsilon = epsilon\n        self.eps_min = epsilon_end\n        self.eps_dec = epsilon_dec\n        self.lr = lr\n        self.action_space = [i for i in range(n_actions)]\n        self.mem_size = max_mem_size\n        self.batch_size = batch_size",
+        "detail": "DQN_Starting.llc_full",
+        "documentation": {}
+    },
+    {
+        "label": "DeepQNetwork",
+        "kind": 6,
+        "importPath": "DQN_Starting.llc_setup",
+        "description": "DQN_Starting.llc_setup",
+        "peekOfCode": "class DeepQNetwork(nn.Module):\n    def __init__(self, lr, input_dims, fc1_dims, fc2_dims, n_actions):\n        super(DeepQNetwork, self).__init__()\n        self.input_dims = input_dims\n        self.fc1_dims = fc1_dims\n        self.fc2_dims = fc2_dims\n        self.n_actions = n_actions\n        self.fc1 = nn.Linear(*self.input_dims, self.fc1_dims)\n        self.fc2 = nn.Linear(self.fc1_dims, self.fc2_dims)\n        self.fc2v = nn.Linear(self.fc2_dims,self.n_actions)",
+        "detail": "DQN_Starting.llc_setup",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "kind": 6,
+        "importPath": "DQN_Starting.llc_setup",
+        "description": "DQN_Starting.llc_setup",
+        "peekOfCode": "class Agent():\n    # gamma is the determines the weighting of future rewards\n    # epsilon: how often does it spend exploring vs taking the best decision\n    #batch_size: from which past values to go off from\n    def __init__(self , gamma, epsilon, lr, input_dims, batch_size, n_actions, max_mem_size = 100000, epsilon_end = 0.01, epsilon_dec = 5e-4):\n        self.gamma = gamma\n        self.epsilon = epsilon\n        self.eps_min = epsilon_end\n        self.eps_dec = epsilon_dec\n        self.lr = lr",
+        "detail": "DQN_Starting.llc_setup",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "DQN_Starting.new",
+        "description": "DQN_Starting.new",
+        "peekOfCode": "env = gym.make(\"LunarLander-v3\", render_mode=\"human\")\n# Reset the environment to generate the first observation\nobservation, info = env.reset(seed=42)\nfor _ in range(1000):\n    # this is where you would insert your policy\n    action = env.action_space.sample()\n    # step (transition) through the environment with the action\n    # receiving the next observation, reward and if the episode has terminated or truncated\n    observation, reward, terminated, truncated, info = env.step(action)\n    # If the episode has ended then we can reset to start a new episode",
+        "detail": "DQN_Starting.new",
+        "documentation": {}
+    },
+    {
+        "label": "DeepQNetwork",
+        "kind": 6,
+        "importPath": "DQN_Starting.video",
+        "description": "DQN_Starting.video",
+        "peekOfCode": "class DeepQNetwork(nn.Module):\n    def __init__(self, lr, input_dims, fc1_dims, fc2_dims, n_actions):\n        super(DeepQNetwork, self).__init__()\n        self.input_dims = input_dims\n        self.fc1_dims = fc1_dims\n        self.fc2_dims = fc2_dims\n        self.n_actions = n_actions\n        self.fc1 = nn.Linear(*self.input_dims, self.fc1_dims)\n        self.fc2 = nn.Linear(self.fc1_dinms, self.fc2_dims)\n        self.fc2v = nn.Linear(self.fc2_dims,n_actions)",
+        "detail": "DQN_Starting.video",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "kind": 6,
+        "importPath": "DQN_Starting.video",
+        "description": "DQN_Starting.video",
+        "peekOfCode": "class Agent():\n    # gamma is the determines the weighting of future rewards\n    # epsilon: how often does it spend exploring vs taking the best decision\n    #batch_size: from which past values to go off from\n    def __init__(self,gamma, epsilon, lr, input_dims, batch_size, n_actions, max_mem_size = 100000, epsilon_end = 0.01, epsilon_dec = 5e-4):\n        self.gamma = gamma\n        self.epsilon = epsilon\n        self.eps_min = epsilon_end\n        self.eps_dec = epsilon_dec\n        self.lr = lr",
+        "detail": "DQN_Starting.video",
+        "documentation": {}
+    },
+    {
+        "label": "get_controller_state",
+        "kind": 2,
+        "importPath": "location_finder",
+        "description": "location_finder",
+        "peekOfCode": "def get_controller_state():\n    left_thumb_y = 0\n    left_thumb_x = 0\n    right_thumb_x = 0\n    right_trigger = 0\n    events = inputs.get_gamepad()\n    for event in events:\n        if event.ev_type == 'Absolute' and event.code == 'ABS_Y':\n            left_thumb_y = event.state / 32767.0  # Normalize to range [-1, 1]\n        elif event.ev_type == 'Absolute' and event.code == 'ABS_X':",
+        "detail": "location_finder",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "location_finder",
+        "description": "location_finder",
+        "peekOfCode": "client = airsim.MultirotorClient()\nclient.confirmConnection()\n# Define functions to handle controller input\ndef get_controller_state():\n    left_thumb_y = 0\n    left_thumb_x = 0\n    right_thumb_x = 0\n    right_trigger = 0\n    events = inputs.get_gamepad()\n    for event in events:",
+        "detail": "location_finder",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "try_control",
+        "description": "try_control",
+        "peekOfCode": "client = airsim.MultirotorClient()\nclient.confirmConnection()\nclient.reset()\n# Arm the drone\nclient.enableApiControl(True)\nclient.armDisarm(True)\nwhile True:\n    client.moveToPositionAsync(5487.372, 3550.54, -71.77,1).join()\n    quad_state = client.getMultirotorState().kinematics_estimated.position\n    print(quad_state.x_val, quad_state.y_val, quad_state.z_val)",
+        "detail": "try_control",
+        "documentation": {}
+    },
+    {
+        "label": "quad_state",
+        "kind": 5,
+        "importPath": "try_control",
+        "description": "try_control",
+        "peekOfCode": "quad_state = client.getMultirotorState().kinematics_estimated.position\nprint(quad_state.z_val)\nclient.moveToPositionAsync(quad_state.x_val, quad_state.y_val, -1.78, 3).join()\nprint(\"Stop\")\n# Take off to a certain altitude\n# Hover for a few seconds\n# airsim.time.sleep(1)\n# Land the drone\n# client.landAsync().join()\ntime.sleep(10)",
+        "detail": "try_control",
+        "documentation": {}
+    }
+]
