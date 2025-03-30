@@ -119,7 +119,7 @@ if __name__ == '__main__':
     env = gym.make('LunarLander-v3')
     agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=4, epsilon_end=0.01, input_dims=[8], lr=0.003)
     scores, eps_history = [], []
-    n_games = 10
+    n_games = 5
 
     for i in range(n_games):
         score = 0
@@ -138,24 +138,34 @@ if __name__ == '__main__':
         eps_history.append(agent.epsilon)
         avg_score = np.mean(scores[-100:])
 
-        print('episode ', i % 11, 'score %.2f' % score,
+        print('episode ', i, 'score %.2f' % score,
               'average score %.2f' % avg_score,
               'epsilon %.2f' % agent.epsilon)
 
-    x = [i + 1 for i in range(n_games)]
+    x = [i + 1 for i in range(n_games)] 
 
-    # Plot scores
-    plt.plot(x, scores)
+    # Plot scores with line of best fit
+    plt.plot(x, scores, label='Scores')
+    z = np.polyfit(x, scores, 1)  # 1 for linear fit
+    p = np.poly1d(z)
+
+    plt.plot(x, p(x), "r--", label='Line of best fit')
     plt.xlabel('Episode')
     plt.ylabel('Score')
     plt.title('Lunar Lander Scores')
-    plt.savefig('lunar_lander_scores.png') # Save the plot
-    plt.show() #show the plot
+    plt.legend()
+    plt.savefig('lunar_lander_scores.png')
+    plt.show()
 
-    #Plot epsilon
-    plt.plot(x, eps_history)
+    '''Plot epsilon with line of best fit
+    plt.plot(x, eps_history, label='Epsilon')
+    z = np.polyfit(x, eps_history, 1)
+    p = np.poly1d(z)
+    
+    plt.plot(x, p(x), "r--", label='Line of best fit')
     plt.xlabel('Episode')
     plt.ylabel('Epsilon')
     plt.title('Epsilon History')
+    plt.legend()
     plt.savefig('lunar_lander_epsilon.png')
-    plt.show()
+    plt.show()'''
