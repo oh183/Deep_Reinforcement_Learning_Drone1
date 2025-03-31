@@ -589,7 +589,16 @@
         "kind": 6,
         "importPath": "DQN_Starting.llc_full",
         "description": "DQN_Starting.llc_full",
-        "peekOfCode": "class Agent():\n    def __init__(self, gamma, epsilon, lr, input_dims, batch_size, n_actions, max_mem_size=100000, epsilon_end=0.01, epsilon_dec=5e-5):\n        self.gamma = gamma\n        self.epsilon = epsilon\n        self.eps_min = epsilon_end\n        self.eps_dec = epsilon_dec\n        self.lr = lr\n        self.action_space = [i for i in range(n_actions)]\n        self.mem_size = max_mem_size\n        self.batch_size = batch_size",
+        "peekOfCode": "class Agent():\n    def __init__(self, gamma, epsilon, lr, input_dims, episodes, batch_size, n_actions, renew_eps, max_mem_size=100000, epsilon_end=0.01, epsilon_dec=1e-4):\n        self.gamma = gamma\n        self.episodes = episodes\n        self.renew_eps = renew_eps\n        self.epsilon = epsilon\n        self.eps_min = epsilon_end\n        self.eps_dec = epsilon_dec\n        self.lr = lr\n        self.action_space = [i for i in range(n_actions)]",
+        "detail": "DQN_Starting.llc_full",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "DQN_Starting.llc_full",
+        "description": "DQN_Starting.llc_full",
+        "peekOfCode": "start_time = time.time()\nif __name__ == '__main__':\n    n_games = 500\n    env = gym.make('LunarLander-v3')\n    agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=4, epsilon_end=0.15, input_dims=[8], episodes=n_games, lr=0.003, renew_eps=0.5)\n    scores, eps_history = [], []\n    for i in range(n_games):\n        score = 0\n        done = False\n        observation, _ = env.reset()",
         "detail": "DQN_Starting.llc_full",
         "documentation": {}
     },

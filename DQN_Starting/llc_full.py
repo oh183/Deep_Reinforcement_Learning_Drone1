@@ -5,6 +5,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import matplotlib.pyplot as plt # Import matplotlib
+import time
+
 
 class DeepQNetwork(nn.Module):
     def __init__(self, lr, input_dims, fc1_dims, fc2_dims, n_actions):
@@ -31,8 +33,10 @@ class DeepQNetwork(nn.Module):
         return actions
 
 class Agent():
-    def __init__(self, gamma, epsilon, lr, input_dims, batch_size, n_actions, max_mem_size=100000, epsilon_end=0.01, epsilon_dec=5e-5):
+    def __init__(self, gamma, epsilon, lr, input_dims, episodes, batch_size, n_actions, renew_eps, max_mem_size=100000, epsilon_end=0.01, epsilon_dec=1e-4):
         self.gamma = gamma
+        self.episodes = episodes
+        self.renew_eps = renew_eps
         self.epsilon = epsilon
         self.eps_min = epsilon_end
         self.eps_dec = epsilon_dec
@@ -113,14 +117,21 @@ class Agent():
         loss.backward()
         self.Q_eval.optimizer.step()
 
-        self.epsilon = max(self.eps_min, self.epsilon - self.eps_dec) #More efficent.
+
+        '''if self.epsilon == self.eps_min and [scores[i] < 0 for i in range(int(self.episodes/10))]:
+            self.epsilon = self.renew_eps
+        else:'''
+        self.epsilon = max(self.eps_min, self.epsilon - self.eps_dec) 
+
+
+start_time = time.time()
 
 if __name__ == '__main__':
+    n_games = 500
     env = gym.make('LunarLander-v3')
-    agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=4, epsilon_end=0.01, input_dims=[8], lr=0.003)
+    agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=4, epsilon_end=0.15, input_dims=[8], episodes=n_games, lr=0.003, renew_eps=0.5)
     scores, eps_history = [], []
-    n_games = 5
-
+    
     for i in range(n_games):
         score = 0
         done = False
@@ -138,11 +149,16 @@ if __name__ == '__main__':
         eps_history.append(agent.epsilon)
         avg_score = np.mean(scores[-100:])
 
-        print('episode ', i, 'score %.2f' % score,
+        print('episode ', i + 1, 'score %.2f' % score,
               'average score %.2f' % avg_score,
               'epsilon %.2f' % agent.epsilon)
 
     x = [i + 1 for i in range(n_games)] 
+
+    end_time = time.time()  # Record the end time
+    execution_time = end_time - start_time  # Calculate the execution time
+
+    print(f"Execution time: {execution_time:.2f} seconds")  # Print the execution time
 
     # Plot scores with line of best fit
     plt.plot(x, scores, label='Scores')
