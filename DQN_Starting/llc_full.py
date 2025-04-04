@@ -33,7 +33,7 @@ class DeepQNetwork(nn.Module):
         return actions
 
 class Agent():
-    def __init__(self, gamma, epsilon, lr, input_dims, episodes, batch_size, n_actions, renew_eps, max_mem_size=100000, epsilon_end=0.01, epsilon_dec=1e-4):
+    def __init__(self, gamma, epsilon, lr, input_dims, episodes, batch_size, n_actions, renew_eps, max_mem_size=100000, epsilon_end=0.01, epsilon_dec=3e-4):
         self.gamma = gamma
         self.episodes = episodes
         self.renew_eps = renew_eps
@@ -118,7 +118,7 @@ class Agent():
         self.Q_eval.optimizer.step()
 
 
-        '''if self.epsilon == self.eps_min and [scores[i] < 0 for i in range(int(self.episodes/10))]:
+        '''if self.epsilon == self.eps_min and [scores[-i] < 0 for i in range(int(self.episodes/10))]:
             self.epsilon = self.renew_eps
         else:'''
         self.epsilon = max(self.eps_min, self.epsilon - self.eps_dec) 
@@ -127,9 +127,9 @@ class Agent():
 start_time = time.time()
 
 if __name__ == '__main__':
-    n_games = 500
+    n_games = 200
     env = gym.make('LunarLander-v3')
-    agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=4, epsilon_end=0.15, input_dims=[8], episodes=n_games, lr=0.003, renew_eps=0.5)
+    agent = Agent(gamma=0.99, epsilon=1.0, batch_size=64, n_actions=4, epsilon_end=0.25, input_dims=[8], episodes=n_games, lr=0.003, renew_eps=0.5)
     scores, eps_history = [], []
     
     for i in range(n_games):
